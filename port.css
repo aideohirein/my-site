@@ -1,0 +1,209 @@
+						/* Page one */
+div{
+/*	border: 15px solid green;*/
+  	padding: 5px;
+}
+
+body{
+	margin: 0; 
+	font-family: Roboto, Verdana, sans-serif; 
+	font-size: 16px;
+	/*background color: #D4D3CD;*/
+}
+
+.one a{
+	color: white;
+	text-decoration: none;
+}
+
+		/* title note */
+h1{
+	color: white;
+}
+
+h2{
+	color: #397EBC;
+}
+
+
+.head{
+	background-color: #2d3436;
+	background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+	text-align: left;
+	padding: 350px;
+	line-height: 1.5; 
+}
+
+/*animation on header text*/
+.bio{
+	width: 200px
+  color: #fff;
+  font-size: 40px;
+  font-family: Roboto, sans-serif;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: typing 3.5s steps(40, end),blink-caret .7s step-end infinite;
+}
+/* The typewriter cursor effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #397EBC }
+}
+
+.name{
+	font-size: 50px;
+}
+.start{
+	padding-top: 60px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+
+ 						/* home page links*/
+
+.one{
+	text-decoration-color: white;
+	margin: 0;
+	padding: 15px 50px 15px 15px;
+	text-align: right;
+	word-spacing: 50px;
+	background-color: #2d3436;
+	background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+}
+
+
+/*title and image for work 'latest work' 'burger' image*/
+.work{
+	display: inline;
+	writing-mode: vertical-rl;
+	transform-origin: left;
+	text-align:left;
+	padding-left: 50px;
+	position: relative;
+	columns: auto;
+}
+
+.box{
+	margin-left: 50px;
+	margin-top: 0;
+	display: inline;
+	cursor: pointer;
+}
+
+/* title and image for shark image 'hobbie' & 'shark' image */
+.hob{
+	display: inline;
+	margin-top: auto;
+	display: inline;
+	cursor: pointer;
+	/*padding-left: 50px;*/
+}
+
+.hobbies{
+	display: inline;
+	writing-mode: vertical-rl;
+	transform-origin: center;
+	position: left;
+/*	padding-left: 50px;*/
+	position: flex;
+	columns: auto;
+}
+.shark{
+	display: inline;
+	margin-top: auto;
+	display: inline;
+	cursor: pointer;
+/*	padding-left: 50px;*/
+}
+
+/* title and image for shark image 'hobbie' & 'shark' image */
+.bout{
+	margin-left: 50px;
+	margin-top: 0;
+	display: inline;
+	cursor: pointer;
+/*	vertical-align: left;*/
+	
+}
+
+/*.camera{
+	margin-left: 50px;
+	margin-top: 0;
+	display: inline;
+	cursor: pointer;
+/*	vertical-align: left;
+}*/
+
+.about{
+	display: inline;
+	writing-mode: vertical-rl;
+	transform-origin: left;
+	text-align:left;
+	padding-left: 50px;
+	position: flex;
+	columns: auto;
+}
+
+/*blurb about the 'about me'*/
+.blurb {
+  	color: #397EBC;
+ 	width: 300px;
+ 	writing-mode: horizontal-tb;
+	font-size: 20px;
+	position: absolute;
+	display: inline;
+	text-align: left;
+	margin: 260px 0px 10px 100px;
+}
+
+/*blurb about the food app and shark*/
+
+/*.blurb1{
+	color: green;
+	width: 300px;
+	font-size: 20px;
+	position: flex;
+	display: inline;
+	text-align: right;
+ 	margin: -250px 10px 10px 900px;
+    z-index: 1;
+}**/
+
+
+
+ 						/* me page links*/
+
+.blurbme{
+	float: right;
+	color: #397EBC;
+ 	width: 300px;
+ 	writing-mode: horizontal-tb;
+	font-size: 20px;
+	position: absolute;
+	display: inline;
+	text-align: left;
+}
+
+/*footer, NOTE: needs icons*/
+
+footer{
+	background-color: #2d3436;
+	background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+	padding: 10px;
+}
+
+.fot{ 
+	color: white;
+	text-align: center;
+ }
+
