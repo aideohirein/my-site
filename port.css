@@ -177,8 +177,17 @@ h2{
 	text-align: right;
  	margin: -250px 10px 10px 900px;
     z-index: 1;
-}**/
+}*/
 
+
+						/*hobbies page*/
+
+.phogallery{						
+ 	border: 1px;
+  	display: inline;
+	margin-top: auto;
+	cursor: pointer;
+}
 
 
  						/* me page links*/
