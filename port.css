@@ -196,7 +196,6 @@ h2{
 .blurbme{
 	float: right;
 	color: #397EBC;
- 	width: 300px;
  	writing-mode: horizontal-tb;
 	font-size: 20px;
 	position: absolute;
@@ -204,7 +203,18 @@ h2{
 	text-align: left;
 }
 
-				/*work page*/
+.blurbtwo{
+	margin: 0;
+	float: left;
+	color: #397EBC;
+ 	writing-mode: horizontal-tb;
+	font-size: 20px;
+	position: absolute;
+	display: inline;
+	text-align: left;
+}
+
+						/*work page*/
 
 
 
