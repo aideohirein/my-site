@@ -214,8 +214,30 @@ h2{
 	text-align: left;
 }
 
+
+
 						/*work page*/
 
+.roarbike {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.roarbike:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*.roarbike{
+	 color: #397EBC;
+ 	writing-mode: horizontal-tb;
+	font-size: 20px;
+	position: absolute;
+	display: inline;
+	text-align: left;
+}*/
 
 
 
