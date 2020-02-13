@@ -218,26 +218,50 @@ h2{
 
 						/*work page*/
 
+.headbike{
+	align-content: center;
+}
+
+.biketit{
+	display: inline;
+	writing-mode: vertical-rl;
+	transform-origin: left;
+	text-align:left;
+	padding-left: 40px;
+	padding-bottom: 100px;
+	position: flex;
+	columns: auto;
+	font-size: 40px;
+}
+
 .roarbike {
   float: left;
-  width: 50%;
+ /* display: flex;*/
+  width: 47%;
+
 }
 
 /* Clear floats after the columns */
-.roarbike:after {
-  content: "";
-  display: table;
-  clear: both;
+.rrbike:after {
+   display: flex;
+   width: 47%;
+   padding-left: 30px;
 }
 
-/*.roarbike{
-	 color: #397EBC;
- 	writing-mode: horizontal-tb;
-	font-size: 20px;
-	position: absolute;
-	display: inline;
-	text-align: left;
-}*/
+.febox{
+	width: 50%;
+	position: flex;
+}
+.feature{
+	float: left;
+  	width: 23%;
+
+}
+
+.features{
+	display: flex;
+   width: 23%;
+}
 
 
 
