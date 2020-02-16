@@ -110,6 +110,10 @@ h2{
 	/*padding-left: 50px;*/
 }
 
+.time{
+	text-align: left;
+}
+
 .hobbies{
 	display: inline;
 	writing-mode: vertical-rl;
@@ -137,13 +141,6 @@ h2{
 	
 }
 
-/*.camera{
-	margin-left: 50px;
-	margin-top: 0;
-	display: inline;
-	cursor: pointer;
-/*	vertical-align: left;
-}*/
 
 .about{
 	display: inline;
@@ -285,15 +282,19 @@ h2{
    padding-left: 30px;
 }
 
-.febox{
-	width: 50%;
+/*.febox{
+	column-count: 2;
 	position: flex;
-}
+}*/
+
 .feature{
+	column-count: 2;
+	position: flex;
 	float: left;
   	width: 23%;
 
 }
+
 
 
 /*.bike{
