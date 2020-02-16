@@ -237,18 +237,22 @@ h2{
 	text-align: left;
 }
 
-.blurbtwo{
-	margin: 0;
-	float: left;
-	color: #397EBC;
- 	writing-mode: horizontal-tb;
-	font-size: 20px;
-	position: absolute;
-	display: inline;
-	text-align: left;
+.button {
+  background-color: #397EBC; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+ text-align: button;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  align-content: left;
+ 
 }
 
-
+a.button{
+	 text-decoration: none;
+}
 
 						/*work page*/
 
@@ -294,19 +298,25 @@ h2{
   	width: 23%;
 
 }
-
-
-
-/*.bike{
+ 
+.br{
 	display: inline;
 	writing-mode: vertical-rl;
 	transform-origin: left;
 	text-align:left;
-	padding-left: 30px;
+	padding-left: 40px;
 	position: flex;
-	columns: auto;
-	font-size: 30px;
-}*/
+}
+
+.per{
+	float: right;
+ 	writing-mode: horizontal-tb;
+	font-size: 20px;
+	position: absolute;
+	display: inline;
+	text-align: right;
+}
+
 
 /*footer, NOTE: needs icons*/
 
