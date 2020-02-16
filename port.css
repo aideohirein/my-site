@@ -295,12 +295,17 @@ h2{
 
 }
 
-.features{
-	display: flex;
-   width: 23%;
-}
 
-
+/*.bike{
+	display: inline;
+	writing-mode: vertical-rl;
+	transform-origin: left;
+	text-align:left;
+	padding-left: 30px;
+	position: flex;
+	columns: auto;
+	font-size: 30px;
+}*/
 
 /*footer, NOTE: needs icons*/
 
