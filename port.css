@@ -115,7 +115,7 @@ h2{
 	writing-mode: vertical-rl;
 	transform-origin: center;
 	position: left;
-/*	padding-left: 50px;*/
+	padding-left: 10px;
 	position: flex;
 	columns: auto;
 }
@@ -183,13 +183,51 @@ h2{
 
 						/*hobbies page*/
 
-.phogallery{						
- 	border: 1px;
-  	display: inline;
-	margin-top: auto;
-	cursor: pointer;
+.phogallery{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 5vw);
+    grid-gap: 15px;					
 }
 
+/*.photo {
+  flex: auto;
+  max-width: auto;
+  padding: 5px;
+}*/
+
+
+/*.photo img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .photo {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .photo {
+    flex: 100%;
+    max-width: 100%;
+  }
+}*/
+
+.hobbies{
+	display: inline;
+	writing-mode: vertical-rl;
+	transform-origin: left;
+	text-align:left;
+	padding-left: 30px;
+	padding-bottom: 100px;
+	position: flex;
+	columns: auto;
+	font-size: 30px;
+}
 
  						/* me page links*/
 
