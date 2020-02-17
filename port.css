@@ -257,10 +257,12 @@ a.button{
 						/*work page*/
 						/* roadbikes */
 
+/* title*/
 .headbike{
 	align-content: center;
 }
 
+/* title alignment*/
 .biketit{
 	display: inline;
 	writing-mode: vertical-rl;
@@ -273,6 +275,7 @@ a.button{
 	font-size: 40px;
 }
 
+
 .roarbike {
   float: left;
  /* display: flex;*/
@@ -281,44 +284,36 @@ a.button{
 }
 
 /* Clear floats after the columns */
-.rrbike:after {
+/*.rrbike:after {
    display: flex;
    width: 47%;
    padding-left: 30px;
-}
+}*/
 
 .feature{
 	column-count: 2;
 	position: flex;
 	float: left;
   	width: 23%;
-
 }
  
-.br{
-	display: inline;
-	writing-mode: vertical-rl;
-	transform-origin: left;
-	text-align:left;
-	padding-left: 40px;
+
+img.br{
 	position: flex;
- 	 float: none;
+	float: left;
+  	width: 23%;
+  	margin: 5px;
 }
 
-.per{
-	float: right;
- 	writing-mode: horizontal-tb;
-	font-size: 20px;
-	position: absolute;
-	display: inline;
-	text-align: right;
+img.frame{
+	padding-left: 110px;
+	padding-right: 100px;
 }
 
-.son{
-  float: right;
-}
+
 				
 					/* food app */
+
 .food{
 	align-content: center;
 }
@@ -335,6 +330,13 @@ a.button{
 	font-size: 40px;
 }
 
+					/* blood app */
+
+.brief{
+	  float: left;
+   position: flex;
+  width: 50%;
+}
 
 
 /*footer, NOTE: needs icons*/
