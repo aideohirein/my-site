@@ -170,19 +170,6 @@ img.bout{
 	margin: 260px 0px 10px 100px;
 }
 
-/*blurb about the food app and shark*/
-
-/*.blurb1{
-	color: green;
-	width: 300px;
-	font-size: 20px;
-	position: flex;
-	display: inline;
-	text-align: right;
- 	margin: -250px 10px 10px 900px;
-    z-index: 1;
-}*/
-
 
 						/*hobbies page*/
 
@@ -369,6 +356,9 @@ img.bod{
   	margin: 5px;
 }
 
+.btitle{
+	padding-left: 80px;
+}
 
 
 /*footer, NOTE: needs icons*/
