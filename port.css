@@ -16,7 +16,9 @@ body{
 	text-decoration: none;
 }
 
-		/* title note */
+			/* title note */
+			/*portfolio*/
+
 h1{
 	color: white;
 }
@@ -30,7 +32,7 @@ h2{
 	background-color: #2d3436;
 	background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
 	text-align: left;
-	padding: 350px;
+	padding: 200px;
 	line-height: 1.5; 
 }
 
@@ -60,13 +62,18 @@ h2{
 }
 
 .name{
-	font-size: 50px;
+	font-size: 200px;
 }
 .start{
-	padding-top: 60px;
-	text-align: center;
+	padding-top: 10px;
+	text-align: left;
 	text-decoration: none;
 	font-size: 30px;
+	width: 300px;
+}
+
+a.start{
+	text-decoration: none;
 }
 
 
@@ -354,17 +361,14 @@ img.frame{
  	 padding-left: 50px;
 }
 
-.bod img {
+img.bod{
 	position: flex;
 	float: left;
-  	width: 23%;
+  	width: 40%;
   	margin: 5px;
 }
 
-.bob{
-	position: flex;
-	float: right;
-}
+
 
 /*footer, NOTE: needs icons*/
 
