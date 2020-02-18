@@ -323,6 +323,11 @@ img.frame{
 	font-size: 40px;
 }
 
+.body{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
 					/* blood app */
 
 .brief{
@@ -364,9 +369,11 @@ img.bod{
 /*footer, NOTE: needs icons*/
 
 footer{
+	width: 100%;
 	background-color: #2d3436;
 	background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
 	padding: 10px;
+	width: 100%;
 }
 
 .fot{ 
