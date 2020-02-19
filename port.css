@@ -30,6 +30,8 @@ h1{
 
 h2{
 	color: #397EBC;
+	margin: 0;
+	margin-top: 15px;
 }
 
 
@@ -332,7 +334,7 @@ img.frame{
 .apbr{
 	position: flex;
 	float: left;
-  	width: 50%;
+  	width:45%;
   	margin: 5px;
 }
 
@@ -341,6 +343,13 @@ img.frame{
 	float: left;
   	width: 50%;
   	margin: 5px;
+}
+
+img.apper{
+	margin-top: 5px;
+	width: 50%;
+	position: flex;
+	float: left;
 }
 
 
