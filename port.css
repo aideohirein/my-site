@@ -308,6 +308,19 @@ img.frame{
 	padding-right: 100px;
 }
 
+.bike{
+	position: flex;
+	float: left;
+  	width: 50%;
+  	margin: 5px;
+}
+
+img.bike{
+	margin-top: 5px;
+	width: 30%;
+	position: flex;
+	float: left;
+}
 
 				
 					/* food app */
@@ -331,13 +344,6 @@ img.frame{
 }
 
 
-.apbr{
-	position: flex;
-	float: left;
-  	width:45%;
-  	margin: 5px;
-}
-
 .apper{
 	position: flex;
 	float: left;
@@ -351,6 +357,49 @@ img.apper{
 	position: flex;
 	float: left;
 }
+
+
+.bod{
+	position: inline;
+	float: left;
+  	width: 50%;
+  	margin: 5px;
+}
+
+
+.apbr{
+	position: flex;
+	float: left;
+  	width:45%;
+  	margin: 5px;
+}
+
+.app{
+	padding-top: 100px;
+}
+
+.appw{
+	/*margin-top: 220px;*/
+	margin-left: -40px;
+}
+
+img.appy{
+	margin-top: 5px;
+	width: 100%;
+	position: flex;
+	float: center;
+	padding-left: 50px;
+}
+
+
+img.appw{
+	margin-top: 5px;
+	width: 100%;
+	position: flex;
+	float: center;
+	padding-left: 50px;
+}
+
 
 
 					/* blood app */
