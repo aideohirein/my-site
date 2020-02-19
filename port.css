@@ -16,6 +16,11 @@ body{
 	text-decoration: none;
 }
 
+.body{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
 			/* title note */
 			/*portfolio*/
 
@@ -292,7 +297,7 @@ a.button{
 img.br{
 	position: flex;
 	float: left;
-  	width: 23%;
+  	width: 40%;
   	margin: 5px;
 }
 
@@ -323,10 +328,21 @@ img.frame{
 	font-size: 40px;
 }
 
-.body{
-	margin-left: 20px;
-	margin-right: 20px;
+
+.apbr{
+	position: flex;
+	float: left;
+  	width: 50%;
+  	margin: 5px;
 }
+
+.apper{
+	position: flex;
+	float: left;
+  	width: 50%;
+  	margin: 5px;
+}
+
 
 					/* blood app */
 
