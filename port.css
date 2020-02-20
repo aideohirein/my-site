@@ -16,6 +16,17 @@ body{
 	text-decoration: none;
 }
 
+.one{
+	text-decoration-color: white;
+	margin: 0;
+	padding: 15px 50px 15px 15px;
+	text-align: right;
+	word-spacing: 50px;
+	background-color: #2d3436;
+	background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+}
+
+
 .body{
 	margin-left: 20px;
 	margin-right: 20px;
@@ -31,6 +42,7 @@ h1{
 h2{
 	color: #397EBC;
 	margin: 0;
+	padding: 0;
 	margin-top: 15px;
 }
 
@@ -87,15 +99,7 @@ a.start{
 
  						/* home page links*/
 
-.one{
-	text-decoration-color: white;
-	margin: 0;
-	padding: 15px 50px 15px 15px;
-	text-align: right;
-	word-spacing: 50px;
-	background-color: #2d3436;
-	background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
-}
+
 
 
 /*title and image for work 'latest work' 'burger' image*/
@@ -284,9 +288,13 @@ a.button{
   float: left;
  /* display: flex;*/
   width: 47%;
-
 }
 
+.roarb{
+	  float: left;
+ 	/* display: flex;*/
+ 	 width: 47%;
+}
 
 .feature{
 	column-count: 2;
@@ -299,28 +307,17 @@ a.button{
 img.br{
 	position: flex;
 	float: left;
-  	width: 40%;
+  	width: 25%;
   	margin: 5px;
 }
 
 img.frame{
 	padding-left: 110px;
 	padding-right: 100px;
+	
 }
 
-.bike{
-	position: flex;
-	float: left;
-  	width: 50%;
-  	margin: 5px;
-}
 
-img.bike{
-	margin-top: 5px;
-	width: 30%;
-	position: flex;
-	float: left;
-}
 
 				
 					/* food app */
