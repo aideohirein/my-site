@@ -1,4 +1,9 @@
 						/* Page one */
+html{
+	max-width: 100%;
+	/*2000px;*/
+}
+
 div{
 /*	border: 15px solid green;*/
   	padding: 5px;
@@ -19,11 +24,12 @@ body{
 .one{
 	text-decoration-color: white;
 	margin: 0;
-	padding: 15px 50px 15px 15px;
+	padding: 15px 15px 15px 15px;
 	text-align: right;
 	word-spacing: 50px;
 	background-color: #2d3436;
 	background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+	max-width: 100%;
 }
 
 
@@ -59,7 +65,6 @@ h2{
 
 /*animation on header text*/
 .bio{
- /* width: 200px;*/
   font-size: 40px;
   font-family: Roboto, sans-serif;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -97,6 +102,7 @@ h2{
 a.start{
 	text-decoration: none;
 }
+
 
 
  						/* home page links*/
@@ -252,19 +258,44 @@ img.bout{
   border: none;
   color: white;
   padding: 15px 32px;
- text-align: button;
-  text-decoration: none;
+/* text-align: button;
+*/text-decoration: none;
   display: inline-block;
   font-size: 16px;
   align-content: left;
- 
+}
+
+hr.line {
+  border: 1px solid #397EBC;
+  margin-left: -550px;
 }
 
 a.button{
 	 text-decoration: none;
 }
 
+.skills{
+	text-align: left;
+	word-spacing: 50px;
 
+}
+
+.around{
+	display: inline;
+	writing-mode: vertical-rl;
+	transform-origin: left;
+	text-align:left;
+	margin-left: -550px;
+	margin-top: 20px;
+	position: flex;
+	columns: auto;
+	font-size: 20px;
+}
+
+.words{
+	margin-top: -65px;
+	margin-left: -190px;
+}
 
 						/*work page*/
 						/* roadbikes */
@@ -376,7 +407,8 @@ img.apper{
 }
 
 .app{
-	padding-top: 100px;
+	margin-top: 0px;
+	padding-top: 0px;
 }
 
 .appw{
@@ -406,7 +438,12 @@ img.appw{
 					/* blood app */
 
 .brief{
-	  float: left;
+	float: left;
+ /* display: flex;*/
+  		width: 47%;
+}
+.collum{
+	float: right;
  /* display: flex;*/
   		width: 47%;
 }
@@ -424,9 +461,9 @@ img.appw{
 }
 
 .app{
-	 float: center;
- 	 width: 50%;
- 	 padding-left: 50px;
+	float: center;
+ 	margin-top: 0px;
+ 	padding-top: 0px;
 }
 
 img.bod{
@@ -444,16 +481,26 @@ img.bod{
 /*footer, NOTE: needs icons*/
 
 footer{
-	padding: 10px;
-	margin: 0;
-	width: 100%;
+	max-width: 100%;
 	background-color: #2d3436;
 	background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+	color: white;
+	padding: 20px;
+	text-decoration: none;
 
 }
 
 .fot{ 
-	color: white;
-	text-align: center;
- }
+	text-decoration-color: white;
+	text-decoration: none;
+	padding-left: 20px;
+
+}
+
+a.fot{
+	text-decoration: none;
+}
+
+
+
 
