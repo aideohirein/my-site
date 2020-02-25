@@ -4,17 +4,22 @@ html{
 	/*2000px;*/
 }
 
-div{
-/*	border: 15px solid green;*/
-  	padding: 5px;
-}
+/*div{
+	border: 15px solid green;
+}*/
 
 body{
 	margin: 0; 
 	font-family: Roboto, Verdana, sans-serif; 
 	font-size: 16px;
+/*	padding-left: 15px;
+	padding-right: 15px;*/
 	/*background color: #D4D3CD;*/
 }
+
+/*.padding{
+	padding: 15px;
+}*/
 
 .one a{
 	color: white;
@@ -32,11 +37,6 @@ body{
 	max-width: 100%;
 }
 
-
-.body{
-	padding-left: 20px;
-	padding-right: 20px;
-}
 
 
 			/* title note */
@@ -73,7 +73,7 @@ h2{
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
   animation: typing 3.5s steps(40, end),blink-caret .7s step-end infinite;
-  animation: start left;
+  animation-play-state: left;
 }
 
 /* The typewriter cursor effect */
@@ -241,6 +241,16 @@ img.bout{
 	font-size: 30px;
 }
 
+
+.gall{
+	margin-left: 70px;
+	margin-top: -200px;
+	 display: flex;
+  flex-wrap: wrap;
+  padding: 5px;	
+}
+
+
  						/* me page links*/
 
 .blurbme{
@@ -267,8 +277,8 @@ img.bout{
 
 hr.line {
   border: 1px solid #397EBC;
-  margin-left: -550px;
-}
+/*  margin-left: -550px;
+*/}
 
 a.button{
 	 text-decoration: none;
@@ -276,7 +286,7 @@ a.button{
 
 .skills{
 	text-align: left;
-	word-spacing: 50px;
+	word-spacing: 80px;
 
 }
 
@@ -285,7 +295,7 @@ a.button{
 	writing-mode: vertical-rl;
 	transform-origin: left;
 	text-align:left;
-	margin-left: -550px;
+	margin-left: -538px;
 	margin-top: 20px;
 	position: flex;
 	columns: auto;
@@ -294,7 +304,11 @@ a.button{
 
 .words{
 	margin-top: -65px;
-	margin-left: -190px;
+	margin-left: -300px;
+}
+
+.but{
+	margin-left: -50px
 }
 
 						/*work page*/
@@ -487,18 +501,22 @@ footer{
 	color: white;
 	padding: 20px;
 	text-decoration: none;
+}
 
+.foot-con{
+	display: flex;
+	justify-content: center;
+}
+
+.foot-con li{
+	list-style: none;
+	padding-left: 50px;
 }
 
 .fot{ 
-	text-decoration-color: white;
 	text-decoration: none;
-	padding-left: 20px;
+	color: white;
 
-}
-
-a.fot{
-	text-decoration: none;
 }
 
 
