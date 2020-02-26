@@ -37,7 +37,17 @@ body{
 	max-width: 100%;
 }
 
+.active:focus {
+	color: #397EBC;
+}
 
+.active:hover {
+	color: #397EBC;
+}
+
+.project a{
+	color: #397EBC;
+}
 
 			/* title note */
 			/*portfolio*/
