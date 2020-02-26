@@ -435,23 +435,14 @@ img.apper{
 	padding-top: 0px;
 }
 
-.appw{
-	/*margin-top: 220px;*/
+/*.appw{
+	margin-top: 220px;
 	margin-left: -40px;
-}
-
-img.appy{
-	margin-top: 5px;
-	width: 100%;
-	position: flex;
-	float: center;
-	padding-left: 50px;
-}
-
+}*/
 
 img.appw{
 	margin-top: 5px;
-	width: 100%;
+	width: 50%;
 	position: flex;
 	float: center;
 	padding-left: 50px;
