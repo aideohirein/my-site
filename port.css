@@ -1,7 +1,6 @@
 						/* Page one */
 html{
 	max-width: 100%;
-	/*2000px;*/
 }
 
 /*div{
@@ -17,9 +16,6 @@ body{
 	/*background color: #D4D3CD;*/
 }
 
-/*.padding{
-	padding: 15px;
-}*/
 
 .one a{
 	color: white;
@@ -121,9 +117,9 @@ a.start{
 
 
 /*title and image for work 'latest work' 'burger' image*/
-.work{
+.title {
 	display: inline;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	transform-origin: left;
 	text-align:left;
 	padding-left: 50px;
@@ -153,7 +149,7 @@ a.start{
 
 .hobbies{
 	display: inline;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	transform-origin: center;
 	position: left;
 	padding-left: 10px;
@@ -179,7 +175,7 @@ img.bout{
 
 .about{
 	display: inline;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	transform-origin: left;
 	text-align:left;
 	padding-left: 100px;
@@ -188,11 +184,11 @@ img.bout{
 }
 
 /*blurb about the 'about me'*/
-.blurb {
+.blurbb {
   	color: #397EBC;
- 	width: 300px;
+ 	width: 450px;
  	writing-mode: horizontal-tb;
-	font-size: 20px;
+	font-size: 25px;
 	position: absolute;
 	display: inline;
 	text-align: left;
@@ -242,7 +238,7 @@ img.bout{
 
 .hobbies{
 	display: inline;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	transform-origin: left;
 	text-align:left;
 	padding-left: 30px;
@@ -256,8 +252,8 @@ img.bout{
 	margin-left: 70px;
 	margin-top: -200px;
 	 display: flex;
-  flex-wrap: wrap;
-  padding: 5px;	
+ 	 flex-wrap: wrap;
+ 	 padding: 5px;	
 }
 
 
@@ -267,59 +263,85 @@ img.bout{
 	float: right;
 	color: #397EBC;
  	writing-mode: horizontal-tb;
-	font-size: 20px;
+	font-size: 25px;
 	position: absolute;
 	display: inline;
 	text-align: left;
+	width: 550px;
+	margin-top: 50px;
+	margin-left: 10px;
+}
+
+.blurb{
+	float: left;
+	margin-top: 50px;
+	margin-left: 100px;
+	color: #397EBC;
+ 	writing-mode: horizontal-tb;
+	font-size: 25px;
+	position: absolute;
+	display: inline;
+	text-align: left;
+	width: 800px;
 }
 
 .button {
-  background-color: #397EBC; /* Green/blue */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-/* text-align: button;
-*/text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  align-content: left;
+ 	background-color: #397EBC; /* Green/blue */
+ 	border: none;
+ 	color: white;
+ 	padding: 10px 15px;
+	text-decoration: none;
+ 	display: inline-block;
+  	font-size: 28px;
+ 	align-content: center;
 }
 
-hr.line {
-  border: 1px solid #397EBC;
-/*  margin-left: -550px;
-*/}
 
 a.button{
 	 text-decoration: none;
 }
 
 .skills{
-	text-align: left;
-	word-spacing: 80px;
-
+	margin-top: 55px;
+	background-color: #2d3436;
+	background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+	max-width: 90%;
+	padding: 20px;
+	justify-content: center;
+	margin-left: 60px;
+	padding-bottom: 50px;
 }
 
 .around{
 	display: inline;
-	writing-mode: vertical-rl;
-	transform-origin: left;
-	text-align:left;
-	margin-left: -538px;
-	margin-top: 20px;
-	position: flex;
-	columns: auto;
-	font-size: 20px;
+	text-align: left;
+	font-size: 30px;
+	margin-top: 90px;
+/*	margin-left: 70px;
+*/	color: #397EBC;
 }
 
 .words{
-	margin-top: -65px;
-	margin-left: -300px;
+	color: white;
+	display: flex;
+	justify-content: center;
+/*	font-size:25px; 
+	 
+	text-align: center;
+	display: inline;
+	justify-content: center;*/
 }
 
-.but{
-	margin-left: -50px
+.words li{
+	list-style: none;
 }
+
+
+.but{
+	text-align: center;
+}
+
+
 
 						/*work page*/
 						/* roadbikes */
@@ -332,7 +354,7 @@ a.button{
 /* title alignment*/
 .biketit{
 	display: inline;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	transform-origin: left;
 	text-align:left;
 	padding-left: 40px;
@@ -389,7 +411,7 @@ img.frame{
 
 .foodh{
 	display: inline;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	transform-origin: left;
 	text-align:left;
 	padding-left: 40px;
@@ -465,7 +487,7 @@ img.appw{
 
 .gb{
 	display: inline;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	transform-origin: left;
 	text-align:left;
 	padding-left: 40px;
@@ -506,20 +528,31 @@ footer{
 
 .foot-con{
 	display: flex;
-	justify-content: center;
+	justify-content: right;
 }
 
 .foot-con li{
 	list-style: none;
-	padding-left: 50px;
+}
+
+.foot-com{
+	display: flex;
+	justify-content: right;
+}
+
+.foot-com li{
+	list-style: none;
 }
 
 .fot{ 
 	text-decoration: none;
 	color: white;
-
 }
 
-
+.fot2{
+	padding-left: 20px;
+	text-decoration: none;
+	color: white;
+}
 
 
