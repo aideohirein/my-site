@@ -413,7 +413,13 @@ a.button{
 .everything{
 	margin-left: 30px;
 	margin-right: 30px;
-	margin-bottom: 30px;
+	margin-bottom: 60px;
+}
+
+.everythingg{
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-bottom: 60px;
 }
 
 img.br{
@@ -426,6 +432,11 @@ img.br{
 
 .lowfed{
 	margin-top: 150px;
+}
+
+.highfed{
+	margin-top: 0px;
+	margin-left: 25px;
 }
 
 				
