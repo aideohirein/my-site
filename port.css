@@ -22,6 +22,11 @@ body{
 	text-decoration: none;
 }
 
+.onefirst a{
+	color: white;
+	text-decoration: none;
+}
+
 .one{
 	text-decoration-color: white;
 	margin: 0;
@@ -30,6 +35,15 @@ body{
 	word-spacing: 50px;
 	background-color: #2d3436;
 	background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+	max-width: 100%;
+}
+
+.onefirst{
+	text-decoration-color: white;
+	margin: 0;
+	padding: 15px 15px 15px 15px;
+	text-align: right;
+	word-spacing: 50px;
 	max-width: 100%;
 }
 
@@ -100,8 +114,7 @@ h2{
 	padding: 0;
 }
 .start{
-/*	padding-top: 10px;*/
-	text-align: left;
+	text-align: center;
 	text-decoration: none;
 	font-size: 30px;
 	width: 300px;
@@ -110,6 +123,7 @@ h2{
 a.start{
 	text-decoration: none;
 }
+
 
 
 
@@ -197,6 +211,17 @@ img.bout{
 	margin: 260px 0px 10px 100px;
 }
 
+.boutlan{
+	display: inline;
+	margin-top: auto;
+	display: inline;
+	cursor: pointer;
+}
+
+.paddinglanding{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
 
 						/*hobbies page*/
 
@@ -206,9 +231,6 @@ img.bout{
   padding: 5px;					
 }
 
-/*.pride img{
- padding-left:50px;
-}*/
 
 .photo{
   flex: 25%;
@@ -416,12 +438,6 @@ a.button{
  	 width: 47%;
 }
 
-
-.persona{
-	margin: 15px;
-/*	margin-top: 50px;
-*/}
-
 .everythingfe{
 	margin: 30px;
 }
@@ -432,9 +448,13 @@ a.button{
 	margin-bottom: 60px;
 }
 
+.everythingapppww{
+	margin-left: 30px;
+}
+
 .everythingper{
 	margin: 30px;
-	padding-top: 10px;
+	padding-top: 600px;
 }
 
 
