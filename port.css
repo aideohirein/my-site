@@ -10,12 +10,14 @@ html{
 body{
 	margin: 0; 
 	font-family: Roboto, Verdana, sans-serif; 
-	font-size: 16px;
-/*	padding-left: 15px;
-	padding-right: 15px;*/
-	/*background color: #D4D3CD;*/
+	font-size: 18px;
 }
 
+.sitename{
+	color: #ccc;
+	text-align: left;
+	float: left;
+}
 
 .one a{
 	color: white;
@@ -25,26 +27,29 @@ body{
 .onefirst a{
 	color: white;
 	text-decoration: none;
+	word-spacing: 50px;
 }
 
 .one{
 	text-decoration-color: white;
 	margin: 0;
-	padding: 15px 15px 15px 15px;
 	text-align: right;
 	word-spacing: 50px;
 	background-color: #2d3436;
-	background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
 	max-width: 100%;
+	font-family: Roboto, Verdana, sans-serif; 
 }
 
 .onefirst{
 	text-decoration-color: white;
 	margin: 0;
-	padding: 15px 15px 15px 15px;
 	text-align: right;
-	word-spacing: 50px;
 	max-width: 100%;
+}
+
+.active{
+	word-spacing: 50px;
+	font-family: Roboto, Verdana, sans-serif; 
 }
 
 .active:focus {
@@ -59,171 +64,139 @@ body{
 	color: #397EBC;
 }
 
+
 			/* title note */
 			/*portfolio*/
 
+
 h1{
-	color: white;
+    color: white;
 }
 
 h2{
-	color: #397EBC;
-	margin: 0;
-	padding: 0;
-	margin-top: 15px;
+    color: #397EBC;
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
 }
 
 .everything{
-	margin: 30px;
+    margin: 30px;
 }
 
 .head{
-	background-color: #2d3436;
-	background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
-	text-align: left;
-	padding: 100px;
-	line-height: 1.5; 
+    background-color: #2d3436;
+    text-align: left;
+    padding: 100px;
+    line-height: 1.5; 
 }
 
-/*animation on header text*/
-.bio{
-  font-size: 40px;
-  font-family: Roboto, sans-serif;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid #397EBC; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: typing 3.5s steps(40, end),blink-caret .7s step-end infinite;
-  animation-play-state: left;
-}
-
-/* The typewriter cursor effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: #397EBC }
-}
 
 .name{
-	font-size: 200px;
-	padding: 0;
+    font-size: 200px;
+    padding: 0;
 }
 .start{
-	text-align: center;
-	text-decoration: none;
-	font-size: 30px;
-	width: 300px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    width: 300px;
 }
 
 a.start{
-	text-decoration: none;
+    text-decoration: none;
 }
 
 
+.wordCarousel {
+    font-size: 36px;
+    font-weight: 100;
+    color: #939393;
+}
+.wordCarousel > div {
+        overflow: hidden;
+        position: relative;
+        float: right;
+        height: 65px;
+        padding-top: 10px;
+        margin-top: -10px;
+    }
+
+.flip4 li {
+        font-family: Serif;
+        color: #397EBC;
+        font-weight: 700;
+        padding: 0 10px;
+        height: 45px;
+        margin-bottom: 45px;
+        display: block;
+        }
+
+.flip4 { animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
 
 
- 						/* home page links*/
-
-
-
-
-/*title and image for work 'latest work' 'burger' image*/
-.title {
-	display: inline;
-	writing-mode: vertical-lr;
-	transform-origin: left;
-	text-align:left;
-	padding-left: 50px;
-	position: relative;
-	columns: auto;
+@keyframes flip4 {
+    0% { margin-top: -360px; }
+    5% { margin-top: -270px; }
+    25% { margin-top: -270px; }
+    30% { margin-top: -180px; }
+    50% { margin-top: -180px; }
+    55% { margin-top: -90px; }
+    75% { margin-top: -90px; }
+    80% { margin-top: 0px; }
+    99.99% { margin-top: 0px; }
+    100% { margin-top: -270px; }
 }
 
-.box{
-	margin-left: 50px;
-	margin-top: 0;
-	display: inline;
-	cursor: pointer;
-}
-
-/* title and image for shark image 'hobbie' & 'shark' image */
-.hob{
-	display: inline;
-	margin-top: auto;
-	display: inline;
-	cursor: pointer;
-	/*padding-left: 50px;*/
-}
-
-.time{
-	text-align: left;
-}
-
-.hobbies{
-	display: inline;
-	writing-mode: vertical-lr;
-	transform-origin: center;
-	position: left;
-	padding-left: 10px;
-	position: flex;
-	columns: auto;
-}
-.shark{
-	display: inline;
-	margin-top: auto;
-	display: inline;
-	cursor: pointer;
-/*	padding-left: 50px;*/
-}
-
-/* title and image for shark image 'hobbie' & 'shark' image */
-img.bout{
-	margin-left: 50px;
-	margin-top: 10px;
-	display: inline;
-	cursor: pointer;	
-}
-
-
-.about{
-	display: inline;
-	writing-mode: vertical-lr;
-	transform-origin: left;
-	text-align:left;
-	padding-left: 100px;
-	position: flex;
-	columns: auto;
-}
-
-/*blurb about the 'about me'*/
-.blurbb {
-  	color: #397EBC;
- 	width: 450px;
- 	writing-mode: horizontal-tb;
-	font-size: 25px;
-	position: absolute;
-	display: inline;
-	text-align: left;
-	margin: 260px 0px 10px 100px;
-}
-
-.boutlan{
-	display: inline;
-	margin-top: auto;
-	display: inline;
-	cursor: pointer;
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300|Oswald);
+.front body {
+    font-family: "Roboto Condensed";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 .paddinglanding{
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-right: 5%;
+	margin-left: 5%;
+	display: flex;
+  	flex-wrap: wrap;
+ 	padding: 5px;	
 }
 
+.photo img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 25%;
+}
+
+.box{
+	margin-top: 10%;
+	margin-bottom: 10%;
+
+}
+
+.shark{
+	margin-top: 10%;
+	margin-left: 5%;
+	margin-bottom: 10%;
+}
+
+.camera{
+	margin-top: 10%;
+	margin-right: 5%; 
+	margin-left: 5%;
+	margin-bottom: 10%;
+}
+
+
+ 
+						
 						/*hobbies page*/
+
 
 .phogallery{
   display: flex;
@@ -242,7 +215,7 @@ img.bout{
   margin-top: 8px;
   vertical-align: middle;
   width: 25%;
-}*/
+}
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
@@ -327,8 +300,8 @@ a.button{
 
 .skills{
 	margin-top: 55px;
+	border-color:  black;
 	background-color: #2d3436;
-	background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
 	max-width: 90%;
 	padding: 20px;
 	justify-content: center;
@@ -350,7 +323,7 @@ a.button{
 
 .words{
 	margin-top: -30px;
-	color: white;
+	color: black;
 	display: flex;
 	justify-content: center;
 }
@@ -367,6 +340,7 @@ a.button{
   	text-decoration: none;
  	font-size: 20px;
  	float: left;
+ 	color: 
 }
 
 
@@ -462,7 +436,7 @@ a.button{
 img.br{
 	position: flex;
 	float: left;
-  	width: 35%;
+  	width: 50%;
   	margin-right: 15px;
 }
 
@@ -688,8 +662,8 @@ img.bod{
 footer{
 	max-width: 100%;
 	background-color: #2d3436;
-	background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
-	color: white;
+/*	background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+*/	color: white;
 	padding: 20px;
 	text-decoration: none;
 }
