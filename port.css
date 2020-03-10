@@ -64,6 +64,10 @@ body{
 	color: #397EBC;
 }
 
+/*.titleone{
+	padding: 2%;
+}*/
+
 
 			/* title note */
 			/*portfolio*/
@@ -112,18 +116,18 @@ a.start{
     font-size: 36px;
     font-weight: 100;
     color: #939393;
+    display: flex;
 }
+
 .wordCarousel > div {
         overflow: hidden;
-        position: relative;
-        float: right;
         height: 65px;
         padding-top: 10px;
         margin-top: -10px;
     }
 
 .flip4 li {
-        font-family: Serif;
+        font-family: Roboto, Verdana, sans-serif;
         color: #397EBC;
         font-weight: 700;
         padding: 0 10px;
@@ -175,28 +179,27 @@ a.start{
 
 .box{
 	margin-top: 10%;
+	margin-right: 5%; 
 	margin-bottom: 10%;
 
 }
 
 .shark{
 	margin-top: 10%;
-	margin-left: 5%;
+	margin-right: 5%; 
 	margin-bottom: 10%;
 }
 
 .camera{
 	margin-top: 10%;
-	margin-right: 5%; 
-	margin-left: 5%;
 	margin-bottom: 10%;
 }
 
 
  
 						
-						/*hobbies page*/
-
+/*						hobbies page
+*/
 
 .phogallery{
   display: flex;
