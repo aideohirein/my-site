@@ -30,6 +30,13 @@ body{
 	word-spacing: 50px;
 }
 
+.onefirst{
+	text-decoration-color: white;
+	margin: 0;
+	text-align: right;
+	max-width: 100%;
+}
+
 .one{
 	text-decoration-color: white;
 	margin: 0;
@@ -38,13 +45,6 @@ body{
 	background-color: #2d3436;
 	max-width: 100%;
 	font-family: Roboto, Verdana, sans-serif; 
-}
-
-.onefirst{
-	text-decoration-color: white;
-	margin: 0;
-	text-align: right;
-	max-width: 100%;
 }
 
 .active{
@@ -64,9 +64,30 @@ body{
 	color: #397EBC;
 }
 
-/*.titleone{
-	padding: 2%;
-}*/
+.project{
+	padding-right:3%;
+
+}
+
+.titleone{
+	background-color: #2d3436;	
+	text-decoration: none;
+/*	padding-top: 3%;
+*/	padding:3%; 
+	text-decoration-color: white;
+	margin: 0;
+	text-align: right;
+	max-width: 100%;
+	font-family: Roboto, Verdana, sans-serif; 
+}
+
+.onewrap a{ 
+	word-spacing: 50px;
+	color: white;
+	text-decoration: none;
+}
+
+
 
 
 			/* title note */
@@ -164,42 +185,14 @@ a.start{
 }
 
 .paddinglanding{
+	margin-top: 10%;
+	margin-bottom:10%;
 	margin-right: 5%;
 	margin-left: 5%;
 	display: flex;
-  	flex-wrap: wrap;
  	padding: 5px;	
 }
 
-.photo img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 25%;
-}
-
-.box{
-	margin-top: 10%;
-	margin-right: 5%; 
-	margin-bottom: 10%;
-
-}
-
-.shark{
-	margin-top: 10%;
-	margin-right: 5%; 
-	margin-bottom: 10%;
-}
-
-.camera{
-	margin-top: 10%;
-	margin-bottom: 10%;
-}
-
-
- 
-						
-/*						hobbies page
-*/
 
 .phogallery{
   display: flex;
@@ -215,9 +208,44 @@ a.start{
 }
 
 .photo img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 25%;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.container{
+	position: relative;
+	width: 50%;
+}
+
+.overlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0; 
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: 0.5s ease;
+	background-color: #2d3436;
+
+}
+
+.container:hover .overlay{
+	opacity: 0.7;
+}
+
+.title{
+	color: white;
+	font-size: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	transform: (-50%,-50%);
+	text-align: center;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -226,11 +254,48 @@ a.start{
     flex: 25%;
     max-width: 25%;
   }
+
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (min-width: 375px) {
+  .photo {
+    flex: 100%;
+    max-width: 100%;
+  }
+    .paddinglanding{
+  	flex-wrap: wrap;
+  	justify-content: center;
+}
+}
+
+
+/*						hobbies page */
+
+
+.postcard img{
+	margin-top: 8px;
+	vertical-align: middle;
+ 	width: 25%;
+}
+
+.postcard {
+  	flex: 30%;
+ 	 max-width:flex;
+ 	 padding: 5px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .postcard {
+    flex: 50%;
+    max-width: 50%;
+  }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .photo {
+  .postcard {
     flex: 100%;
     max-width: 100%;
   }
@@ -410,19 +475,72 @@ a.button{
 }
 
 .roarb{
-	  float: left;
+	float: left;
  	display: flex;
- 	 width: 47%;
+ 	width: 25%;
 }
 
 .everythingfe{
-	margin: 30px;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+.personaman{
+	 flex: 25%;
+  	max-width:flex;
+  	padding: 5px;
+}
+
+img.personaman{
+	position: flex;
+	float: left;
+  	width: 25%;
+  	margin-right: 15px;
+}
+
+.personawom{
+	 flex: 25%;
+  	max-width:flex;
+  	padding: 5px;
+}
+
+img.personawom{
+	position: flex;
+	float: left;
+  	width: 25%;
+  	margin-right: 15px;
+ }
+
+.everythingper{
+	margin-top: 40px;
+	margin-left: 60px;
+	margin-right: 60px;
+	padding-top: 650px;
+}
+
+.everythingres{
+	margin-top: 60px;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+.research img{
+	position: flex;
+	float: left;
+  	width: 25%;
+  	margin-right: 15px;
+}
+
+.research{
+	flex: 25%;
+  	max-width:flex;
+  	padding: 5px;
+
 }
 
 .everythingg{
 	margin-left: 60px;
 	margin-right: 60px;
-	margin-bottom: 60px;
 }
 
 .everythingapppww{
@@ -430,39 +548,39 @@ a.button{
 	margin-right: 60px;
 }
 
-.everythingper{
-	margin: 30px;
-	padding-top: 600px;
+.everythingfed{
+	margin-top: 80px;
+	margin-left: 60px;
+	margin-right: 60px;
+	position: left;
+}
+
+.everythingmed{
+	margin-top: -460px;
+	margin-left: 500px;
+	margin-right: 60px;
+	position: right;
 }
 
 
-img.br{
-	position: flex;
-	float: left;
-  	width: 50%;
-  	margin-right: 15px;
-}
-
-
-.lowfed{
-	margin-top: 150px;
-}
-
-.highfed{
-	margin-top: 0px;
-	margin-left: 25px;
+.everythinghigh{
+	margin-right: 60px;
+	margin-left: 60px; 
 }
 
 .frame{
-	margin-right: 30px;
-	margin-left: 30px; 
+	margin: 0;
 }
 
-.bikeframe{
-	margin-left: 30px; 
+.everythinggover{
+	margin-left: 60px; 
 }
 				
+
+
 					/* food app */
+
+
 
 .food{
 	align-content: center;
