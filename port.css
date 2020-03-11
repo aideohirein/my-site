@@ -1,92 +1,154 @@
 						/* Page one */
 html{
-	max-width: 100%;
+  max-width: 100%;
 }
 
 /*div{
-	border: 15px solid green;
+  border: 15px solid green;
 }*/
 
 body{
-	margin: 0; 
-	font-family: Roboto, Verdana, sans-serif; 
-	font-size: 18px;
+  margin: 0; 
+  font-family: Roboto, Verdana, sans-serif; 
+  font-size: 18px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin-top: -13px;
+  margin-left: 30px;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #397EBC;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #2d3436;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: #ccc;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 .sitename{
-	color: #ccc;
-	text-align: left;
-	float: left;
+  color: #ccc;
+  text-align: left;
+  float: left;
 }
 
 .one a{
-	color: white;
-	text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .onefirst a{
-	color: white;
-	text-decoration: none;
-	word-spacing: 50px;
+  color: white;
+  text-decoration: none;
+  word-spacing: 50px;
 }
 
 .onefirst{
-	text-decoration-color: white;
-	margin: 0;
-	text-align: right;
-	max-width: 100%;
+  text-decoration-color: white;
+  margin: 0;
+  text-align: right;
+  max-width: 100%;
 }
 
 .one{
-	text-decoration-color: white;
-	margin: 0;
-	text-align: right;
-	word-spacing: 50px;
-	background-color: #2d3436;
-	max-width: 100%;
-	font-family: Roboto, Verdana, sans-serif; 
+  text-decoration-color: white;
+  margin: 0;
+  text-align: right;
+  word-spacing: 50px;
+  background-color: #2d3436;
+  max-width: 100%;
+  font-family: Roboto, Verdana, sans-serif; 
 }
 
 .active{
-	word-spacing: 50px;
-	font-family: Roboto, Verdana, sans-serif; 
+  word-spacing: 50px;
+  font-family: Roboto, Verdana, sans-serif; 
 }
 
 .active:focus {
-	color: #397EBC;
+  color: #397EBC;
 }
 
 .active:hover {
-	color: #397EBC;
+  color: #397EBC;
 }
 
 .project a{
-	color: #397EBC;
+  color: #397EBC;
 }
 
 .project{
-	padding-right:3%;
+  padding-right:3%;
 
 }
 
 .titleone{
-	background-color: #2d3436;	
-	text-decoration: none;
-/*	padding-top: 3%;
-*/	padding:3%; 
-	text-decoration-color: white;
-	margin: 0;
-	text-align: right;
-	max-width: 100%;
-	font-family: Roboto, Verdana, sans-serif; 
+  background-color: #2d3436;  
+  text-decoration: none;
+  padding:3%; 
+  text-decoration-color: white;
+  margin: 0;
+  text-align: right;
+  max-width: 100%;
+  font-family: Roboto, Verdana, sans-serif; 
 }
 
 .onewrap a{ 
-	word-spacing: 50px;
-	color: white;
-	text-decoration: none;
+  word-spacing: 50px;
+  color: white;
+  text-decoration: none;
 }
 
+.onewrap{
+	background-color: #2d3436; 
+	padding: 30px;
+	font-size: 16px;
+}
 
 
 
@@ -185,19 +247,19 @@ a.start{
 }
 
 .paddinglanding{
-	margin-top: 10%;
-	margin-bottom:10%;
-	margin-right: 5%;
-	margin-left: 5%;
-	display: flex;
- 	padding: 5px;	
+  margin-top: 10%;
+  margin-bottom:10%;
+  margin-right: 5%;
+  margin-left: 5%;
+  display: flex;
+  padding: 5px; 
 }
 
 
 .phogallery{
   display: flex;
   flex-wrap: wrap;
-  padding: 5px;					
+  padding: 5px;         
 }
 
 
@@ -214,38 +276,38 @@ a.start{
 }
 
 .container{
-	position: relative;
-	width: 50%;
+  position: relative;
+  width: 50%;
 }
 
 .overlay{
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	left: 0; 
-	height: 100%;
-	width: 100%;
-	opacity: 0;
-	transition: 0.5s ease;
-	background-color: #2d3436;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0; 
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #2d3436;
 
 }
 
 .container:hover .overlay{
-	opacity: 0.7;
+  opacity: 0.7;
 }
 
 .title{
-	color: white;
-	font-size: 40px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-webkit-transform:translate(-50%,-50%);
-	-ms-transform:translate(-50%,-50%);
-	transform: (-50%,-50%);
-	text-align: center;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform:translate(-50%,-50%);
+  -ms-transform:translate(-50%,-50%);
+  transform: (-50%,-50%);
+  text-align: center;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -264,8 +326,8 @@ a.start{
     max-width: 100%;
   }
     .paddinglanding{
-  	flex-wrap: wrap;
-  	justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 }
 
@@ -325,29 +387,26 @@ a.start{
  						/* me page links*/
 
 .blurbme{
-	float: right;
 	color: #397EBC;
  	writing-mode: horizontal-tb;
 	font-size: 25px;
-	position: absolute;
+	margin-bottom: 2%;
+}
+
+.camerame{
 	display: inline;
-	text-align: left;
-	width: 550px;
-	margin-top: 50px;
-	margin-left: 10px;
+	position: relative;
+	align-items: right;
+	margin-bottom: 1%;
 }
 
 .blurb{
-	float: left;
-	margin-top: 50px;
-	margin-left: 100px;
 	color: #397EBC;
  	writing-mode: horizontal-tb;
 	font-size: 25px;
-	position: absolute;
-	display: inline;
-	text-align: left;
-	width: 800px;
+	margin-bottom: 2%;
+	margin-right: 10%;
+	margin-left: 10%;
 }
 
 .button {
@@ -369,7 +428,6 @@ a.button{
 .skills{
 	margin-top: 55px;
 	border-color:  black;
-	background-color: #2d3436;
 	max-width: 90%;
 	padding: 20px;
 	justify-content: center;
@@ -381,7 +439,6 @@ a.button{
 	margin-left: 10px;
 	color: #397EBC;
 	display: inline;
-	writing-mode: vertical-lr;
 	transform-origin: left;
 	text-align:left;
 	position: flex;
@@ -390,7 +447,6 @@ a.button{
 }
 
 .words{
-	margin-top: -30px;
 	color: black;
 	display: flex;
 	justify-content: center;
@@ -402,21 +458,23 @@ a.button{
   	padding: 0;
   	overflow: hidden;
   	display: block;
-  	color: white;
+  	color: #2d3436;
   	text-align: center;
   	padding: 16px;
   	text-decoration: none;
  	font-size: 20px;
  	float: left;
- 	color: 
 }
-
 
 
 .but{
 	text-align: center;
 }
 
+.boutme{
+	margin-left:10%;
+	margin-right: 10%;
+}
 
 
 						/*work page*/
