@@ -480,160 +480,124 @@ a.button{
 						/*work page*/
 						/* roadbikes */
 
-/* title*/
-.headbike{
-	align-content: center;
+
+.headbike img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  margin-bottom: 2%;
 }
 
-/* title alignment*/
 .biketit{
-	display: inline;
-	writing-mode: vertical-lr;
-	transform-origin: left;
-	text-align:left;
-	padding-left: 40px;
-	padding-bottom: 100px;
-	position: flex;
-	columns: auto;
-	font-size: 40px;
+  font-size: 40px;
+  padding: 3% 10% 3% 10%;
+  margin: 0% 5% 5% 5%;
+  background: #fccb00;
+  background: rgb(252,203,0) 10%; 
 }
 
-.clientbrief{
-	margin: 10px;
+
+.roadclient{
+  padding: 0% 10% 0% 10%;
+  margin: 0% 5% 5% 5%;
 }
 
-.rb img{
-	justify-content: center;
-	padding-left: 200px;
+.list{
+  margin: 0;
 }
 
-.roarbike {  /*columns - Client Brief, prime obj, target aud*/
-	columns: 3;
- 	float: left;
- 	margin: 25px;
-}
- 
-.prim{ /*prime obj*/
-	padding-top: 25px;
-	margin-left: 15px;
-}
-
-.targ{ /*target aud*/
-	padding-top: 25px;
-}
-
-.feature{ /*feature*/ 
-	columns: 3;
- 	float: left;
- 	/*margin: 15px;*/
-}
-
-.line{
-	margin-left: -18px;
-}
-
-.roarb{
-	float: left;
- 	display: flex;
- 	width: 25%;
-}
-
-.everythingfe{
-	margin-left: 60px;
-	margin-right: 60px;
+.features{
+  background: #fccb00;
+  background: rgb(252,203,0) 10%;
+  padding: 5% 10% 5% 10%;
+  margin: 0% 5% 5% 5%;
+  column-count: 2;
+  display:inline-block;
+  vertical-align: top;
+/*  float: left; */
 }
 
 .personaman{
-	 flex: 25%;
-  	max-width:flex;
-  	padding: 5px;
+  flex: 25%;
+  padding: 0% 10% 5% 10%;
+  margin: 0% 5% 0% 5%;
 }
 
-img.personaman{
-	position: flex;
-	float: left;
-  	width: 25%;
-  	margin-right: 15px;
+.personaman img{
+  position: flex;
+  float: left;
+  width: 45%;
+  margin-left:0;
 }
 
-.personawom{
-	 flex: 25%;
-  	max-width:flex;
-  	padding: 5px;
+.personawom {
+  flex: 25%;
+  padding: 0% 10% 0% 10%;
+  margin: 0% 5% -5% 5%;
 }
 
-img.personawom{
-	position: flex;
-	float: left;
-  	width: 25%;
-  	margin-right: 15px;
- }
-
-.everythingper{
-	margin-top: 40px;
-	margin-left: 60px;
-	margin-right: 60px;
-	padding-top: 650px;
+.personawom img{
+  position: flex;
+  float: left;
+  width: 45%;
+  margin-left:0;
 }
 
-.everythingres{
-	margin-top: 60px;
-	margin-left: 60px;
-	margin-right: 60px;
+.persona p{
+  margin-top: 10%;
 }
 
-.research img{
-	position: flex;
-	float: left;
-  	width: 25%;
-  	margin-right: 15px;
-}
-
-.research{
-	flex: 25%;
-  	max-width:flex;
-  	padding: 5px;
-
-}
-
-.everythingg{
-	margin-left: 60px;
-	margin-right: 60px;
-}
-
-.everythingapppww{
-	margin-left: 30px;
-	margin-right: 60px;
-}
-
-.everythingfed{
-	margin-top: 80px;
-	margin-left: 60px;
-	margin-right: 60px;
-	position: left;
-}
-
-.everythingmed{
-	margin-top: -460px;
-	margin-left: 500px;
-	margin-right: 60px;
-	position: right;
+.researcher{
+    flex: 25%;
+    max-width:flex;
+    background: #fccb00;
+    background: rgb(252,203,0) 10%; 
+    padding: 3% 10% 5% 10%;
+    margin: 0% 5% 5% 5%;
 }
 
 
-.everythinghigh{
-	margin-right: 60px;
-	margin-left: 60px; 
+.researcher img{
+    position: flex;
+    float: left;
+    width: 40%;
 }
 
-.frame{
-	margin: 0;
+.lowfed{
+    position: flex;
+    padding: 3% 15% 3% 15%;
 }
 
-.everythinggover{
-	margin-left: 60px; 
+.lowfed img{
+  display: block;
+  float: center;
+  margin-left: 25%;
+  margin-right: auto;
+  width: 80%;
 }
-				
+
+.medfed{
+    position: flex;
+    width: 80%;
+    padding: 3% 15% 3% 15%;
+}
+
+
+.highfed{
+    position: flex;
+    padding: 3% 15% 3% 15%;
+}
+
+.bikeover{
+    flex: 25%;
+    max-width:flex;
+    background: #fccb00;
+    background: rgb(252,203,0) 10%; 
+    padding: 3% 10% 3% 10%;
+    margin: 0% 5% 5% 5%;
+}
+
 
 
 					/* food app */
