@@ -13,19 +13,19 @@ body{
   font-size: 18px;
 }
 
-.navbar {
+/*.navbar {
   overflow: hidden;
   background-color: #333;
-}
+}*/
 
-.navbar a {
+/*.navbar a {
   float: right;
   font-size: 16px;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
+}*/
 
 .dropdown {
   float: right;
@@ -75,6 +75,7 @@ body{
   color: #ccc;
   text-align: left;
   float: left;
+  padding-left: 3%;
 }
 
 .one a{
@@ -583,10 +584,21 @@ a.button{
     padding: 3% 15% 3% 15%;
 }
 
+.medfed:hover img{
+    transform: scale(1.2);
+    position: center;
+}
+
 
 .highfed{
     position: flex;
     padding: 3% 15% 3% 15%;
+}
+
+
+.highfed:hover img{
+    transform: scale(1.2);
+    position: center;
 }
 
 .bikeover{
