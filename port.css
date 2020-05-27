@@ -380,7 +380,8 @@ a.start {
 .phogallery {
   display: flex;
   flex-wrap: wrap;
-  padding: 5px;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 
 .postcard img {
@@ -392,8 +393,7 @@ a.start {
 .postcard {
   flex: 30%;
   max-width: flex;
-  padding: 5px;
-  box-sizing: border-box;
+ box-sizing: border-box;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -413,23 +413,25 @@ a.start {
 }
 
 .hobbies {
-  display: inline;
-  writing-mode: vertical-lr;
-  transform-origin: left;
-  text-align: left;
-  padding-left: 30px;
-  position: flex;
-  columns: auto;
-  font-size: 2rem;
-  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.galls{
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% - 80px);
+  box-sizing: border-box;
 }
 
 .gall {
   display: flex;
   flex-wrap: wrap;
-  padding: 5px;
   width: calc(100% - 80px);
   box-sizing: border-box;
+  padding-bottom: 10%;
 }
 
 /* me page links*/
