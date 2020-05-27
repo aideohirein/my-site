@@ -523,6 +523,20 @@ a.button {
 }
 
 /*work page*/
+
+.jobs{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  width: calc(100% - 80px);
+  box-sizing: border-box;
+  padding: : 30%;
+}
+
+.job img{
+  margin: 40%;
+}
+
 /* roadbikes */
 
 ul.line {
