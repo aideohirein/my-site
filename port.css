@@ -1101,22 +1101,42 @@ ul.line {
 
 /*animations*/
 
-.drawing{
-  display: flex;
-  flex-wrap: wrap;
-  width: calc(100% - 80px);
-  box-sizing: border-box;
+.drawing {
+  position: relative;
+  padding: 5px;
 }
 
-.card {
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Create two equal columns that sits next to each other */
+/* IE 10 */
+.illustrations{
+  margin: 0% 10% 10% 10%;
   display: flex;
+  -ms-flex-wrap: wrap; 
   flex-wrap: wrap;
-  width: calc(100% - 80px);
-  box-sizing: border-box;
-  padding-bottom: 10%;
+  flex: 50%; 
+  flex: 50%;
+}
+
+.illtext{
+  margin:10% 0% 1% 10%;
+  margin-left: 10%;
+  margin-top: 10%;
 }
 
 
+.drawing img {
+  vertical-align: left;
+}
 
 
 /*footer, NOTE: needs icons*/
