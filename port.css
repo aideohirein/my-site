@@ -143,7 +143,7 @@ h1 {
 }
 
 h2 {
-  color: #397ebc;
+  color: #2d3436;
   margin: 0;
   padding: 0;
   margin-top: 15px;
@@ -434,24 +434,34 @@ a.start {
   padding-bottom: 10%;
 }
 
-/* me page links*/
+/* me page style open*/
 
 .blurbme {
-  color: #397ebc;
   writing-mode: horizontal-tb;
   font-size: 1.5rem;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
+}
+
+.camerame body{
+  background-color:#2d3436;
+
 }
 
 .camerame {
+  background-color:#2d3436;
   display: inline;
   position: relative;
-  align-items: right;
-  margin-bottom: 1%;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:linear-gradient;
+  opacity: 0.7;
 }
 
+
+
 .blurb {
-  color: #397ebc;
   writing-mode: horizontal-tb;
   font-size: 1.5rem;
   margin-bottom: 2%;
@@ -459,44 +469,30 @@ a.start {
   margin-left: 10%;
 }
 
-.button {
-  background-color: #397ebc; /* Green/blue */
-  border: none;
-  color: white;
-  padding: 10px 15px;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1.75rem;
-  align-content: center;
-}
 
-a.button {
-  text-decoration: none;
-}
 
 .skills {
-  margin-top: 55px;
-  border-color: black;
-  max-width: 90%;
-  padding: 20px;
-  justify-content: center;
-  margin-left: 60px;
-  padding-bottom: 50px;
+  color: #397ebc;
+  writing-mode: horizontal-tb;
+  font-size: 1.5rem;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: 10%;
+  margin-left: 7%;
 }
 
 .around {
   margin-left: 10px;
-  color: #397ebc;
+  color: white;
   display: inline;
   transform-origin: left;
   text-align: left;
   position: flex;
   columns: auto;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .words {
-  color: black;
   display: flex;
   justify-content: center;
 }
@@ -507,12 +503,12 @@ a.button {
   padding: 0;
   overflow: hidden;
   display: block;
-  color: #2d3436;
   text-align: center;
   padding: 16px;
   text-decoration: none;
   font-size: 1.25rem;
   float: left;
+  color: white;
 }
 
 .but {
@@ -522,6 +518,111 @@ a.button {
 .boutme {
   margin-left: 10%;
   margin-right: 10%;
+}
+
+
+
+.hero-text {
+  text-align: left;
+  position: relative;
+  margin-top: -50%;
+  margin-bottom: 0%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1rem;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: white;
+  background-color: #397ebc;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: #397ebc;
+}
+
+a.button {
+  text-decoration: none;
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  div.camerame {
+    font-size: flex;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.camerame {
+    font-size: flex;
+  }
+}
+
+
+/* me page style close*/
+
+
+
+/* title styles */
+.home-title span{
+    position: relative;
+    overflow: hidden;
+    display: block;
+    line-height: 1.2;
+}
+
+.home-title span::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #397ebc;
+    animation: a-ltr-after 2s cubic-bezier(.77,0,.18,1) forwards;
+    transform: translateX(-101%);
+}
+
+.home-title span::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bg-color);
+    animation: a-ltr-before 2s cubic-bezier(.77,0,.18,1) forwards;
+    transform: translateX(0);
+}
+
+.home-title span:nth-of-type(1)::before,
+.home-title span:nth-of-type(1)::after{
+    animation-delay: 1s;
+}
+
+.home-title span:nth-of-type(2)::before,
+.home-title span:nth-of-type(2)::after{
+    animation-delay: 1.5s;
+}
+
+@keyframes a-ltr-after{
+    0% {transform: translateX(-100%)}
+    100% {transform: translateX(101%)}
+}
+
+@keyframes a-ltr-before{
+    0% {transform: translateX(0)}
+    100% {transform: translateX(200%)}
 }
 
 
@@ -997,6 +1098,26 @@ ul.line {
   background: rgb(224, 32, 32);
   color: white;
 }
+
+/*animations*/
+
+.drawing{
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% - 80px);
+  box-sizing: border-box;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% - 80px);
+  box-sizing: border-box;
+  padding-bottom: 10%;
+}
+
+
+
 
 /*footer, NOTE: needs icons*/
 
