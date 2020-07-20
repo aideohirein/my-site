@@ -380,14 +380,16 @@ a.start {
 .phogallery {
   display: flex;
   flex-wrap: wrap;
-  padding-right: 10%;
+  padding-top: 5%;
   padding-left: 10%;
+  padding-right: 5%;
+
 }
 
 .postcard img {
   margin-top: 8px;
   vertical-align: middle;
-  width: 25%;
+  width: 35%;
 }
 
 .postcard {
@@ -412,27 +414,25 @@ a.start {
   }
 }
 
-.hobbies {
-  display: flex;
-  flex-wrap: wrap;
-  padding-right: 10%;
-  padding-left: 10%;
-}
 
 .galls{
   display: flex;
   flex-wrap: wrap;
   width: calc(100% - 80px);
   box-sizing: border-box;
+ padding-left: 10%;
+ padding-right: 10%;
+ padding-bottom: 10%;
+/*  margin:10%;*/
 }
 
-.gall {
+/*.gall {
   display: flex;
   flex-wrap: wrap;
   width: calc(100% - 80px);
   box-sizing: border-box;
-  padding-bottom: 10%;
-}
+  padding-left: 500px;
+}*/
 
 /* me page style open*/
 
@@ -634,19 +634,21 @@ a.button {
   width: calc(100% - 80px);
   box-sizing: border-box;
   padding: 5% 10% 10% 15%;
+}
 
+.workimg{
+  padding:1px;
 }
 
 
-
-/*@media screen and (max-height: 450px) {
+@media screen and (max-height: 450px) {
   .pages a {font-size: 20px}
   .pages .closebtn {
   font-size: 40px;
   top: 15px;
   right: 35px;
   }
-}*/
+}
   
 
 
